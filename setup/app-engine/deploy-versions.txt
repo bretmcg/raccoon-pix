@@ -1,0 +1,10 @@
+gcloud app deploy --version v1
+
+# Change to raccoon2.jpg in index.html
+gcloud app deploy --version v2
+
+# Change to raccoon3.jpg in index.html
+gcloud app deploy --version v3
+
+# Change to raccoon4.jpg in index.html
+gcloud app deploy --version v4

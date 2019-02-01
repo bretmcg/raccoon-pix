@@ -1,0 +1,28 @@
+{
+  "name": "raccoon-pix",
+  "version": "1.0.0",
+  "description": "App for viewing amazing raccoon photos",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gcloud app deploy",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/bretmcg/raccoon-pix.git"
+  },
+  "author": "Bret McGowen",
+  "license": "Apache-2.0",
+  "keywords": [
+    "raccoon",
+    "photos",
+    "trash",
+    "panda"
+  ],
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "engines": {
+    "node": ">=8"
+  }
+}
