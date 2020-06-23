@@ -1,0 +1,15 @@
+{
+  "name": "raccoon-pix-api",
+  "version": "1.0.0",
+  "description": "API for viewing amazing raccoon photos",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Bret McGowen",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@google-cloud/firestore": "^3.8.6",
+    "express": "^4.17.1"
+  }
+}
