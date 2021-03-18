@@ -12,7 +12,7 @@ const app = express();
 const port = process.env.PORT || 8080;
 
 app.listen(port, () => {
-  console.log('RacconPix API listening on port', port);
+  console.log('RaccoonPix API listening on port', port);
 });
 ```
 

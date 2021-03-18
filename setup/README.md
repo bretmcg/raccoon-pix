@@ -1,0 +1,11 @@
+- Create a publicly accessable Cloud Storage bucket
+  - Upload files in /web/public/images/raccoon*.jpg
+- Create a Firestore database, with the following format:
+  - raccoons [collection]
+    - 1 [document id]
+      - name: "Bert"
+      - url: "<photo_url_from_cloud_storage>"
+    - 2 [document id]
+      - name: "Pumpkin"
+      - url: "<photo_url_from_cloud_storage>"
+    - (etc)
