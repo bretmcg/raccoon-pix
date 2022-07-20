@@ -9,7 +9,6 @@
   "author": "Bret McGowen",
   "license": "Apache-2.0",
   "dependencies": {
-    "@google-cloud/firestore": "^4.9.8",
-    "express": "^4.17.1"
+    "@google-cloud/firestore": "^5.0.2"
   }
 }
